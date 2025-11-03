@@ -1,0 +1,39 @@
+* {margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+//justify-content mexe na largura. O align mexe na altura
+
+header {
+
+    background-color: rgb(250, 118, 70);
+display: flex; //ativa as caixas flexiveis
+justify-content: flex-start; //é o padrão. os itens são postos no começo do eixo principal.
+justify-content: flex-end; //os itens são postos no final do eixo principal
+justify-content: center; // os itens são postos no meio do eixo principal.
+justify-content: space-around; // o primeiro espaço vazio e o ultimo são iguais
+justify-content: space-evenly; // o mesmo espaçamento entre os itens
+justify-content: space-between; //o primeiro item fica no começo do eixo e o ultimo fica no final
+height: 10vh;
+align-items: flex-start; //os itens são postos no começo do eixo Y (vertical)
+align-items: flex-end; // os itens são postos no final no eixo Y (vertical)
+align-items: center; // os itens são postos no meio do eixo Y (vertical)
+}
+
+h1 {
+    border: solid;
+}
+
+// colocar borda pra ver como ta.
+nav {
+    border: solid green;
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%; // se eu quero espaçar eu preciso de um tamanho.
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.5rem;
+}
