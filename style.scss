@@ -22,16 +22,12 @@ align-items: flex-end; // os itens são postos no final no eixo Y (vertical)
 align-items: center; // os itens são postos no meio do eixo Y (vertical)
 }
 
-div {
+.caixaLogo {
 margin: 30px;
 display: flex;
 justify-content: space-between;
 align-items: center;
 width: 12%;
-}
-
-h1 {
-  
 }
 
 // colocar borda pra ver como ta.
@@ -40,8 +36,9 @@ nav {
     display: flex;
     justify-content: space-evenly;
     width: 40%; // se eu quero espaçar eu preciso de um tamanho.
-  
+     align-items: center;
 }
+
 
 a {
     text-decoration: none;
@@ -60,11 +57,26 @@ a {
 border-radius: 1.5px;
 }
 
-
+/////////////////////////////////////////////////////////////
 
 .primeirasection {
     background-color: #21C05C;
     height: 40vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+h2 {
+    font-size: 3.75rem;
+    font-weight: 700;
+    width: 55%;
+}
+
+p{
+font-size: 1.25rem;
+font-weight: 400;
+
+}
 
 section {
 border: solid;
@@ -74,9 +86,27 @@ display: flex;
 flex-direction: column;
 justify-content: space-around;
 }
+
+button {
+cursor: pointer;
+padding: 20px 40px;
 }
 
 
+.botaoverde {
+
+}
+
+
+
+
+
+}
+
+
+
+
+////////////////////////////////////////////////////////////
 
 .produtosDisponiveis {
     background-color: rgb(149, 216, 149);
@@ -115,5 +145,81 @@ font-weight: 500;
 }
 
 }   
+
+}
+////////////////////////////////////////////////////////////////////////
+
+//responsivo
+//esturura com limitador, minimo de px e max de px
+//@media (min-width: ;) and (max-width: ;)
+
+
+//smartfone max:500px
+@media(max-width: 500px){
+header {
+    flex-direction: column;
+height: 30vh;
+    
+}
+
+.caixaLogo {
+    border: solid;
+    width: 60%;
+}
+
+nav {
+    border: solid;
+    width: 100%;
+}
+ 
+a {
+    font-size: 0.9rem;
+}
+
+.BotaoVerdeheader {
+    font-size: 0.8rem;
+}
+
+////////////////////////
+.primeirasection {
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 120vh;
+}
+
+section {
+    h2{
+        font-size: 0.3rem;
+        width: 100%;
+    }
+
+    p {
+        width: 100%;
+    }
+
+img {
+    width: 50%;
+}
+
+}
+
+
+//section produtos disponiveis
+
+.produtosDisponiveis {
+    flex-direction: column;
+  
+    article {
+    width: 70%;
+text-align: center;
+
+button {
+    font-size: 0.9rem;
+    width: 60%; }
+ }
+
+}
 
 }

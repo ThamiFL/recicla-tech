@@ -19,7 +19,7 @@ header {
   align-items: center;
 }
 
-div {
+.caixaLogo {
   margin: 30px;
   display: flex;
   justify-content: space-between;
@@ -31,6 +31,7 @@ nav {
   display: flex;
   justify-content: space-evenly;
   width: 40%;
+  align-items: center;
 }
 
 a {
@@ -51,6 +52,18 @@ a {
 .primeirasection {
   background-color: #21C05C;
   height: 40vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.primeirasection h2 {
+  font-size: 3.75rem;
+  font-weight: 700;
+  width: 55%;
+}
+.primeirasection p {
+  font-size: 1.25rem;
+  font-weight: 400;
 }
 .primeirasection section {
   border: solid;
@@ -60,7 +73,10 @@ a {
   flex-direction: column;
   justify-content: space-around;
 }
-
+.primeirasection button {
+  cursor: pointer;
+  padding: 20px 40px;
+}
 .produtosDisponiveis {
   background-color: rgb(149, 216, 149);
   display: flex;
@@ -92,4 +108,53 @@ a {
   font-size: 1rem;
   border-radius: 15px;
   font-weight: 500;
+}
+
+@media (max-width: 500px) {
+  header {
+    flex-direction: column;
+    height: 30vh;
+  }
+  .caixaLogo {
+    border: solid;
+    width: 60%;
+  }
+  nav {
+    border: solid;
+    width: 100%;
+  }
+  a {
+    font-size: 0.9rem;
+  }
+  .BotaoVerdeheader {
+    font-size: 0.8rem;
+  }
+  .primeirasection {
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 120vh;
+  }
+  section h2 {
+    font-size: 0.3rem;
+    width: 100%;
+  }
+  section p {
+    width: 100%;
+  }
+  section img {
+    width: 50%;
+  }
+  .produtosDisponiveis {
+    flex-direction: column;
+  }
+  .produtosDisponiveis article {
+    width: 70%;
+    text-align: center;
+  }
+  .produtosDisponiveis article button {
+    font-size: 0.9rem;
+    width: 60%;
+  }
 }/*# sourceMappingURL=style.css.map */
