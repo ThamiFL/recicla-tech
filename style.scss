@@ -79,7 +79,7 @@ font-weight: 400;
 }
 
 section {
-border: solid;
+
 width: 60vw;
 height: 40vh;
 display: flex;
@@ -90,42 +90,94 @@ justify-content: space-around;
 button {
 cursor: pointer;
 padding: 20px 40px;
-}
 
+img {width: 30%;
+height: 5vh;
+}
 
 .botaoverde {
+    background-color: #16A34A;
+}
 
 }
 
 
-
-
-
 }
-
-
-
 
 ////////////////////////////////////////////////////////////
 
+.dadosNumericos {
+  background-color: #f3f5f8;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  height: 20vh;
+
+  div {
+    
+    width: 15%;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+h2{
+  color: #16A34A;
+  font-size: 3rem;
+  font-weight: 700;
+  
+}
+
+p {
+    font-weight: 400;
+    font-size: 1rem;
+}
+}
+}
+
+//////////////////////////////////////////////////////
+
+
+.comofunciona {
+  
+    height: 25vh;
+   padding-left:  40px;
+   padding-top: 40px;
+       
+ h2 {
+ color: #1F2937;
+ font-weight: 800;
+  font-size: 2.6rem; 
+  padding-bottom: 30px;
+    }
+
+ p{
+color: #1F2937;
+font-size: 1.2rem;
+margin-top: 35px;
+}
+
+}
+
+////////////////////////////////////////////
+
 .produtosDisponiveis {
-    background-color: rgb(149, 216, 149);
+background-color: rgb(149, 216, 149);
 display: flex;
 justify-content: space-around;
 align-items: center;
-height: 70vh;
-
+height: 150vh;
 
 article {
-border: solid rebeccapurple;
-width: 20%;
+border: solid #16A34A;
+width: 10%;
 height: 50vh;
 display: flex;
-flex-direction: row; //padrão. os itens são organizados em forma de linha da esquerda para a direita
-//flex-direction: row-reverse; //os itens são organizados em forma de linha (fileira) da direita pra esquerda
-flex-direction: column; //os itens são organizados em coluna de cima para baixo
+flex-direction: column; 
 justify-content: space-between;
 align-items: center;
+border-radius: 15px;
 
 img{
 width: 100%;
@@ -133,20 +185,20 @@ height: 30vh;
 }
 
 button {
-    width: 50%;
-    height: 3vh;
-    cursor: pointer;
-    margin-bottom: 1rem;
+width: 50%;
+height: 3vh;
+cursor: pointer;
+ margin-bottom: 1rem;
 background-color: #16a34a;
 color: #ffffff;
 font-size: 1rem;
 border-radius: 15px;
 font-weight: 500;
 }
-
 }   
-
 }
+
+
 ////////////////////////////////////////////////////////////////////////
 
 //responsivo
@@ -155,20 +207,22 @@ font-weight: 500;
 
 
 //smartfone max:500px
+
 @media(max-width: 500px){
 header {
+    display: flex;
     flex-direction: column;
 height: 30vh;
     
 }
 
 .caixaLogo {
-    border: solid;
+    
     width: 60%;
 }
 
 nav {
-    border: solid;
+   
     width: 100%;
 }
  
@@ -181,17 +235,19 @@ a {
 }
 
 ////////////////////////
+
+
 .primeirasection {
     background-color: aqua;
     display: flex;
     flex-direction: column;
     text-align: center;
-    height: 120vh;
+    height: 150vh;
 }
 
 section {
     h2{
-        font-size: 0.3rem;
+        font-size: 0.1rem;
         width: 100%;
     }
 
@@ -199,11 +255,46 @@ section {
         width: 100%;
     }
 
-img {
-    width: 50%;
+
+}
+
+
+  .boxBtnsPrimeiraSection {
+      width: 100%;
+
+      button {
+        padding: 20px 30px;
+      }
+    }
+
+    img {
+      width: 50%;
+    }
+  }
+
+
+//----------- Section Dados numéricos---------------
+
+.dadosNumericos{
+  //background-color: yellow;
+  height: 25vh;
+
+div{
+  width: 30%;
+
+h2{
+  font-size: 1.8rem;
+}
+
+p{
+  font-size: 1rem;
 }
 
 }
+
+
+}
+
 
 
 //section produtos disponiveis
@@ -217,9 +308,11 @@ text-align: center;
 
 button {
     font-size: 0.9rem;
-    width: 60%; }
+    width: 60%;
+    font-weight: 400;
+ }
  }
 
 }
 
-}
+
