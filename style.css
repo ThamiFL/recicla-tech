@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -6,16 +7,10 @@
 
 header {
   background-color: #ffffff;
+  font-family: "Poppins", sans-serif;
   display: flex;
-  justify-content: flex-start;
-  justify-content: flex-end;
-  justify-content: center;
-  justify-content: space-around;
-  justify-content: space-evenly;
   justify-content: space-between;
   height: 10vh;
-  align-items: flex-start;
-  align-items: flex-end;
   align-items: center;
 }
 
@@ -24,7 +19,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 12%;
+  width: 13%;
 }
 
 nav {
@@ -36,34 +31,38 @@ nav {
 
 a {
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: #4B5563;
+  font-family: "Poppins", sans-serif;
 }
 
 .BotaoVerdeheader {
   background-color: #21C05C;
   color: #ffffff;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   cursor: pointer;
   padding: 18px;
-  border-radius: 1.5px;
+  border-radius: 10px;
+  font-family: "Poppins", sans-serif;
 }
 
 .primeirasection {
-  background-color: #21C05C;
+  background-color: #ffffff;
   height: 40vh;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 .primeirasection h2 {
-  font-size: 3.75rem;
+  font-size: 3rem;
   font-weight: 700;
+  font-family: "Poppins", sans-serif;
   width: 55%;
 }
 .primeirasection p {
   font-size: 1.25rem;
-  font-weight: 400;
+  font-weight: 200;
+  font-family: "Inter", sans-serif;
 }
 .primeirasection section {
   width: 60vw;
@@ -72,16 +71,22 @@ a {
   flex-direction: column;
   justify-content: space-around;
 }
-.primeirasection button {
-  cursor: pointer;
-  padding: 20px 40px;
-}
-.primeirasection button img {
-  width: 30%;
-  height: 5vh;
-}
-.primeirasection button .botaoverde {
+.primeirasection .botaoverde {
   background-color: #16A34A;
+  color: #ffffff;
+  border: none;
+  width: 15%;
+  height: 5vh;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+}
+.primeirasection .botaobranco {
+  border-color: #2563EB;
+  color: #2563EB;
+  width: 15%;
+  height: 5vh;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
 }
 
 .dadosNumericos {
@@ -91,6 +96,10 @@ a {
   text-align: center;
   align-items: center;
   height: 20vh;
+  font-family: "Poppins", sans-serif;
+  font-size: 5rem;
+  padding-top: 10%;
+  margin-bottom: 10%;
 }
 .dadosNumericos div {
   width: 15%;
@@ -101,7 +110,7 @@ a {
 }
 .dadosNumericos div h2 {
   color: #16A34A;
-  font-size: 3rem;
+  font-size: 6rem;
   font-weight: 700;
 }
 .dadosNumericos div p {
@@ -111,52 +120,181 @@ a {
 
 .comofunciona {
   height: 25vh;
-  padding-left: 40px;
-  padding-top: 40px;
+  padding-left: 6%;
+  margin-top: 3%;
 }
 .comofunciona h2 {
   color: #1F2937;
   font-weight: 800;
   font-size: 2.6rem;
-  padding-bottom: 30px;
+  margin-bottom: 3%;
+  font-family: "Poppins", sans-serif;
 }
 .comofunciona p {
   color: #1F2937;
   font-size: 1.2rem;
-  margin-top: 35px;
+  margin-top: 15px;
+  font-family: "Inter", sans-serif;
+}
+
+.doadoresAdquirentes {
+  height: 28vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+.doadoresAdquirentes h2 {
+  width: 15vw;
+  height: 5vh;
+  display: flex;
+  justify-content: space-evenly;
+}
+.doadoresAdquirentes .Doaverde {
+  color: #16A34A;
+  font-family: "Inter", sans-serif;
+}
+.doadoresAdquirentes .Adazul {
+  color: #2563EB;
+  font-family: "Inter", sans-serif;
+}
+.doadoresAdquirentes p {
+  margin-top: 2%;
+}
+.doadoresAdquirentes ul {
+  margin-top: 8%;
+  font-weight: 700;
 }
 
 .produtosDisponiveis {
   background-color: rgb(149, 216, 149);
   display: flex;
+  flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  height: 150vh;
+  height: 60vh;
 }
-.produtosDisponiveis article {
+.produtosDisponiveis .produtosDis {
   border: solid #16A34A;
-  width: 10%;
-  height: 50vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
   border-radius: 15px;
+  display: flex;
+  height: 50vh;
 }
-.produtosDisponiveis article img {
+.produtosDisponiveis .produtosDis img {
   width: 100%;
   height: 30vh;
 }
-.produtosDisponiveis article button {
-  width: 50%;
+.produtosDisponiveis .produtosDis button {
+  width: 30%;
   height: 3vh;
   cursor: pointer;
   margin-bottom: 1rem;
+  border: none;
   background-color: #16a34a;
   color: #ffffff;
   font-size: 1rem;
   border-radius: 15px;
   font-weight: 500;
+}
+
+.estrelas {
+  border: solid;
+  display: flex;
+  justify-content: space-between;
+  height: 35vh;
+}
+.estrelas h2 {
+  border: solid;
+}
+.estrelas .pEstrelas {
+  border: solid;
+}
+.estrelas div {
+  border: solid #16A34A;
+  height: 22vh;
+  width: 18%;
+  border-radius: 15px;
+  font-weight: 400;
+}
+.estrelas div img {
+  margin-bottom: 5%;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+.estrelas div p {
+  margin-bottom: 8%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.estrelas div h4 {
+  margin-left: 5%;
+}
+
+.fazerAdiferença {
+  border: solid;
+  height: 35vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.fazerAdiferença h2 {
+  margin-top: 4%;
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+}
+.fazerAdiferença h3 {
+  margin-top: 1%;
+  margin-bottom: 3%;
+  font-weight: 400;
+  font-size: 1.3rem;
+  font-family: "Inter", sans-serif;
+}
+.fazerAdiferença button {
+  background-color: #16A34A;
+  color: #ffffff;
+  border: none;
+  width: 15%;
+  height: 5vh;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+}
+
+.redes {
+  background-color: #1F2937;
+  color: #ffffff;
+  height: 30vh;
+  display: flex;
+  justify-content: space-evenly;
+}
+.redes .reciclaConecta h3 {
+  margin-top: 15%;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+}
+.redes .reciclaConecta p {
+  margin-top: 10%;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+}
+.redes .reciclaRedes h3 {
+  font-family: "Inter", sans-serif;
+  margin-top: 15%;
+}
+.redes .reciclaRedes p {
+  margin-top: 10%;
+  font-family: "Poppins", sans-serif;
+}
+.redes .reciclaRedes img {
+  margin-top: 10%;
+  margin-left: 10%;
+}
+
+footer {
+  background-color: #1F2937;
+  color: #9CA3AF;
+  text-align: center;
+  height: 10vh;
+  padding-top: 2%;
 }
 
 @media (max-width: 500px) {
@@ -212,17 +350,4 @@ a {
 }
 .dadosNumericos div p {
   font-size: 1rem;
-}
-
-.produtosDisponiveis {
-  flex-direction: column;
-}
-.produtosDisponiveis article {
-  width: 70%;
-  text-align: center;
-}
-.produtosDisponiveis article button {
-  font-size: 0.9rem;
-  width: 60%;
-  font-weight: 400;
 }/*# sourceMappingURL=style.css.map */
