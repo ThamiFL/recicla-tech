@@ -10,8 +10,9 @@ header {
   font-family: "Poppins", sans-serif;
   display: flex;
   justify-content: space-between;
-  height: 10vh;
+  height: 15vh;
   align-items: center;
+  border-bottom: 1px #B4AEAE solid;
 }
 
 .caixaLogo {
@@ -32,12 +33,12 @@ nav {
 a {
   text-decoration: none;
   font-size: 1.2rem;
-  color: #4B5563;
+  color: #4b5563;
   font-family: "Poppins", sans-serif;
 }
 
 .BotaoVerdeheader {
-  background-color: #21C05C;
+  background-color: #21c05c;
   color: #ffffff;
   font-size: 1.3rem;
   cursor: pointer;
@@ -72,7 +73,7 @@ a {
   justify-content: space-around;
 }
 .primeirasection .botaoverde {
-  background-color: #16A34A;
+  background-color: #16a34a;
   color: #ffffff;
   border: none;
   width: 15%;
@@ -81,8 +82,8 @@ a {
   cursor: pointer;
 }
 .primeirasection .botaobranco {
-  border-color: #2563EB;
-  color: #2563EB;
+  border-color: #2563eb;
+  color: #2563eb;
   width: 15%;
   height: 5vh;
   font-family: "Poppins", sans-serif;
@@ -109,8 +110,8 @@ a {
   justify-content: space-evenly;
 }
 .dadosNumericos div h2 {
-  color: #16A34A;
-  font-size: 6rem;
+  color: #16a34a;
+  font-size: 4rem;
   font-weight: 700;
 }
 .dadosNumericos div p {
@@ -124,21 +125,21 @@ a {
   margin-top: 3%;
 }
 .comofunciona h2 {
-  color: #1F2937;
+  color: #1f2937;
   font-weight: 800;
   font-size: 2.6rem;
   margin-bottom: 3%;
   font-family: "Poppins", sans-serif;
 }
 .comofunciona p {
-  color: #1F2937;
+  color: #1f2937;
   font-size: 1.2rem;
   margin-top: 15px;
   font-family: "Inter", sans-serif;
 }
 
 .doadoresAdquirentes {
-  height: 28vh;
+  height: 50vh;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -151,11 +152,11 @@ a {
   justify-content: space-evenly;
 }
 .doadoresAdquirentes .Doaverde {
-  color: #16A34A;
+  color: #16a34a;
   font-family: "Inter", sans-serif;
 }
 .doadoresAdquirentes .Adazul {
-  color: #2563EB;
+  color: #2563eb;
   font-family: "Inter", sans-serif;
 }
 .doadoresAdquirentes p {
@@ -166,73 +167,107 @@ a {
   font-weight: 700;
 }
 
-.produtosDisponiveis {
-  background-color: rgb(149, 216, 149);
+.produtosDisponiveis h2 {
+  padding-top: 1.5%;
+  padding-left: 3%;
+  height: 12vh;
+  font-weight: 600;
+  font-size: 3rem;
+  font-family: "Poppins", sans-serif;
+}
+.produtosDisponiveis h3 {
+  padding-left: 3%;
+  height: 5vh;
+  font-family: "Inter", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+.produtosDisponiveis .articleflex {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  height: 60vh;
+  justify-content: space-evenly;
+  padding: 3rem;
 }
 .produtosDisponiveis .produtosDis {
-  border: solid #16A34A;
-  border-radius: 15px;
+  border: solid #16a34a;
+  width: 16vw;
+  border-radius: 3%;
   display: flex;
-  height: 50vh;
+  flex-direction: column;
+  align-items: center;
 }
 .produtosDisponiveis .produtosDis img {
   width: 100%;
-  height: 30vh;
+}
+.produtosDisponiveis .produtosDis h4 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+  color: #4b5563;
+  padding: 1rem;
+}
+.produtosDisponiveis .produtosDis p {
+  color: #4b5563;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  padding: 1rem;
 }
 .produtosDisponiveis .produtosDis button {
-  width: 30%;
-  height: 3vh;
   cursor: pointer;
-  margin-bottom: 1rem;
-  border: none;
   background-color: #16a34a;
   color: #ffffff;
-  font-size: 1rem;
-  border-radius: 15px;
-  font-weight: 500;
+  border: none;
+  font-family: "Inter", sans-serif;
+  width: 7vw;
+  padding: 0.8rem;
+  border-radius: 2%;
+  margin: 1rem;
 }
 
-.estrelas {
-  border: solid;
-  display: flex;
-  justify-content: space-between;
-  height: 35vh;
-}
 .estrelas h2 {
-  border: solid;
+  height: 20vh;
+  padding-left: 36%;
+  padding-top: 6%;
+  font-weight: 700;
+  font-size: 2.5rem;
+  font-family: "Poppins", sans-serif;
 }
 .estrelas .pEstrelas {
-  border: solid;
+  font-family: "Poppins", sans-serif;
+  padding-left: 40%;
+  font-weight: 400;
+  font-size: 1.8rem;
 }
-.estrelas div {
-  border: solid #16A34A;
-  height: 22vh;
+.estrelas .star {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 3rem;
+}
+.estrelas .star div {
+  border: solid #16a34a 2px;
+  height: 26vh;
   width: 18%;
   border-radius: 15px;
   font-weight: 400;
 }
-.estrelas div img {
+.estrelas .star div img {
   margin-bottom: 5%;
   margin-top: 5%;
   margin-left: 5%;
 }
-.estrelas div p {
+.estrelas .star div p {
   margin-bottom: 8%;
   margin-left: 5%;
   margin-right: 5%;
+  font-family: "Poppins", sans-serif;
 }
-.estrelas div h4 {
+.estrelas .star div h4 {
   margin-left: 5%;
+  font-family: "Inter", sans-serif;
 }
 
 .fazerAdiferença {
-  border: solid;
-  height: 35vh;
+  height: 40vh;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -249,18 +284,34 @@ a {
   font-size: 1.3rem;
   font-family: "Inter", sans-serif;
 }
-.fazerAdiferença button {
-  background-color: #16A34A;
+.fazerAdiferença div {
+  padding: 1rem;
+  width: 30vw;
+  display: flex;
+  justify-content: space-evenly;
+}
+.fazerAdiferença div .botaoverdeDiferença {
+  background-color: #16a34a;
   color: #ffffff;
   border: none;
-  width: 15%;
+  width: 10vw;
   height: 5vh;
+  border-radius: 6px;
   font-family: "Poppins", sans-serif;
-  cursor: pointer;
+  font-size: 1rem;
+}
+.fazerAdiferença div .botaobrancoDiferença {
+  border: solid #16a34a;
+  color: #16a34a;
+  width: 10vw;
+  height: 5vh;
+  border-radius: 6px;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
 }
 
 .redes {
-  background-color: #1F2937;
+  background-color: #1f2937;
   color: #ffffff;
   height: 30vh;
   display: flex;
@@ -290,11 +341,12 @@ a {
 }
 
 footer {
-  background-color: #1F2937;
-  color: #9CA3AF;
+  background-color: #1f2937;
+  color: #9ca3af;
   text-align: center;
   height: 10vh;
   padding-top: 2%;
+  border-top: 1px #4b5563 solid;
 }
 
 @media (max-width: 500px) {
@@ -308,6 +360,7 @@ footer {
   }
   nav {
     width: 100%;
+    height: 20vh;
   }
   a {
     font-size: 0.9rem;
@@ -317,37 +370,25 @@ footer {
   }
   .primeirasection {
     background-color: aqua;
+    height: 160vh;
     display: flex;
     flex-direction: column;
     text-align: center;
-    height: 150vh;
   }
-  section h2 {
-    font-size: 0.1rem;
+  .primeirasection h2 {
+    border: solid;
     width: 100%;
   }
-  section p {
-    width: 100%;
+  .dadosNumericos {
+    height: 25vh;
   }
-  .boxBtnsPrimeiraSection {
-    width: 100%;
+  .dadosNumericos div {
+    width: 30%;
   }
-  .boxBtnsPrimeiraSection button {
-    padding: 20px 30px;
+  .dadosNumericos div h2 {
+    font-size: 1.8rem;
   }
-  img {
-    width: 50%;
+  .dadosNumericos div p {
+    font-size: 1rem;
   }
-}
-.dadosNumericos {
-  height: 25vh;
-}
-.dadosNumericos div {
-  width: 30%;
-}
-.dadosNumericos div h2 {
-  font-size: 1.8rem;
-}
-.dadosNumericos div p {
-  font-size: 1rem;
 }/*# sourceMappingURL=style.css.map */

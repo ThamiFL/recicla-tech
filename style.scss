@@ -1,105 +1,102 @@
-* {margin: 0;
-padding: 0;
-box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 //////////////////////////////////////////////////////////////////////////////
 
 header {
+  background-color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  height: 15vh;
+  align-items: center;
+   border-bottom: 1px #B4AEAE solid;
 
-background-color: #ffffff;
-font-family: "Poppins", sans-serif;
-display: flex; 
-justify-content: space-between;
-height: 10vh;
-align-items: center; 
 }
 
 .caixaLogo {
-margin: 30px;
-display: flex;
-justify-content: space-between;
-align-items: center;
-width: 13%;
+  margin: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 13%;
 }
 
 nav {
-    
-    display: flex;
-    justify-content: space-evenly;
-    width: 40%; 
-     align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  width: 40%;
+  align-items: center;
 }
 
 a {
-    text-decoration: none;
-    font-size: 1.2rem;
-    color: #4B5563;
-   font-family: "Poppins", sans-serif;
-
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #4b5563;
+  font-family: "Poppins", sans-serif;
 }
 
 .BotaoVerdeheader {
-    background-color: #21C05C;
-    color: #ffffff;
-    font-size: 1.3rem;
-    cursor: pointer;
-    padding: 18px;
+  background-color: #21c05c;
+  color: #ffffff;
+  font-size: 1.3rem;
+  cursor: pointer;
+  padding: 18px;
   border-radius: 10px;
   font-family: "Poppins", sans-serif;
-
 }
 
 /////////////////////////////////////////////////////////////
 
 .primeirasection {
-     background-color: #ffffff;
-    height: 40vh;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+  background-color: #ffffff;
+  height: 40vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 
-h2 {
-   font-size: 3rem;
+  h2 {
+    font-size: 3rem;
     font-weight: 700;
     font-family: "Poppins", sans-serif;
     width: 55%;
-}
-
-p{
-font-size: 1.25rem;
-font-weight: 200;
-font-family: "Inter", sans-serif;
-}
-
-section {
-width: 60vw;
-height: 40vh;
-display: flex;
-flex-direction: column;
-justify-content: space-around;
-}
-
-.botaoverde {
-  background-color: #16A34A;
-  color: #ffffff;
-  border: none;
-  width: 15%;
-  height: 5vh;
-  font-family: "Poppins", sans-serif;
-  cursor: pointer;
   }
 
-.botaobranco{
-border-color: #2563EB;
-color: #2563EB;
- width: 15%;
-height: 5vh;
-font-family: "Poppins", sans-serif;
-cursor: pointer;
-}
+  p {
+    font-size: 1.25rem;
+    font-weight: 200;
+    font-family: "Inter", sans-serif;
+  }
 
+  section {
+    width: 60vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
 
+  .botaoverde {
+    background-color: #16a34a;
+    color: #ffffff;
+    border: none;
+    width: 15%;
+    height: 5vh;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+  }
+
+  .botaobranco {
+    border-color: #2563eb;
+    color: #2563eb;
+    width: 15%;
+    height: 5vh;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+  }
 }
 
 ////////////////////////////////////////////////////////////
@@ -111,365 +108,377 @@ cursor: pointer;
   text-align: center;
   align-items: center;
   height: 20vh;
-font-family: "Poppins", sans-serif;
-font-size: 5rem;
-padding-top: 10%;
-margin-bottom: 10%;
+  font-family: "Poppins", sans-serif;
+  font-size: 5rem;
+  padding-top: 10%;
+  margin-bottom: 10%;
 
-
-div {
-      width: 15%;
+  div {
+    width: 15%;
     height: 15vh;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
 
-h2{
-  color: #16A34A;
-  font-size: 6rem;
-  font-weight: 700;
-  
+    h2 {
+      color: #16a34a;
+      font-size: 4rem;
+      font-weight: 700;
+    }
+
+    p {
+      font-weight: 400;
+      font-size: 1rem;
+    }
+  }
 }
 
-p {
-    font-weight: 400;
-    font-size: 1rem;
-}
-
-}
-
-}
-
-//////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////
 
 .comofunciona {
-    height: 25vh;
-   padding-left: 6%;
-   margin-top: 3%;
-  
-       
- h2 {
- color: #1F2937;
- font-weight: 800;
-  font-size: 2.6rem; 
-  margin-bottom: 3%;
-   font-family: "Poppins", sans-serif;
+  height: 25vh;
+  padding-left: 6%;
+  margin-top: 3%;
+
+  h2 {
+    color: #1f2937;
+    font-weight: 800;
+    font-size: 2.6rem;
+    margin-bottom: 3%;
+    font-family: "Poppins", sans-serif;
   }
 
- p{
-color: #1F2937;
-font-size: 1.2rem;
-margin-top: 15px;
-font-family: "Inter", sans-serif;
-}
+  p {
+    color: #1f2937;
+    font-size: 1.2rem;
+    margin-top: 15px;
+    font-family: "Inter", sans-serif;
+  }
 }
 
-/////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
 
-.doadoresAdquirentes{
-   height: 28vh;
+.doadoresAdquirentes {
+  height: 50vh;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   font-family: "Poppins", sans-serif;
 
-  
-h2{
-   width: 15vw;
-  height: 5vh;
-  display: flex;
-  justify-content: space-evenly;
-}
+  h2 {
+    width: 15vw;
+    height: 5vh;
+    display: flex;
+    justify-content: space-evenly;
+  }
 
-
-.Doaverde {
-  color: #16A34A;
+  .Doaverde {
+    color: #16a34a;
     font-family: "Inter", sans-serif;
-}
+  }
 
-.Adazul{
-color: #2563EB;
-  font-family: "Inter", sans-serif;
-
-}
+  .Adazul {
+    color: #2563eb;
+    font-family: "Inter", sans-serif;
+  }
 
   p {
     margin-top: 2%;
   }
 
-ul{
-  margin-top: 8%;
-  font-weight: 700;
-  
-}
-
-}
-
-////////////////////////////////////////////
-
-.produtosDisponiveis {
-background-color: rgb(149, 216, 149);
-display: flex;
-flex-direction: row;
-justify-content: space-around;
-align-items: center;
-height: 60vh;
-
-.produtosDis {
-border: solid #16A34A;
-border-radius: 15px;
-display: flex;
-height: 50vh;
-
-
-img {
-width: 100%;
-height: 30vh;
-}
-
-button {
-width: 30%;
-height: 3vh;
-cursor: pointer;
- margin-bottom: 1rem;
- border: none;
-background-color: #16a34a;
-color: #ffffff;
-font-size: 1rem;
-border-radius: 15px;
-font-weight: 500;
-}
-}   
-
+  ul {
+    margin-top: 8%;
+    font-weight: 700;
+  }
 }
 
 /////////////////////////////////////////////////////////////////
-/// 
-.estrelas{
-  border: solid;
-  display: flex;
-  justify-content: space-between;
- height: 35vh;
-   
+
+.produtosDisponiveis {
   h2 {
-    border: solid;
-    }
-  
-    .pEstrelas {
-      border: solid;
-    }
-
-  div {
-    border: solid #16A34A;
-    height: 22vh;
-    width: 18%;
-    border-radius: 15px;
-     font-weight: 400;
-  
-     img{
-      margin-bottom: 5%;
-      margin-top: 5%;
-      margin-left: 5%;
+    padding-top: 1.5%;
+    padding-left: 3%;
+    height: 12vh;
+    font-weight: 600;
+    font-size: 3rem;
+    font-family: "Poppins", sans-serif;
   }
 
-  p{
-margin-bottom: 8%;
-margin-left: 5%;
-margin-right: 5%;
-
+  h3 {
+    padding-left: 3%;
+    height: 5vh;
+    font-family: "Inter", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
   }
-h4 {
-  margin-left: 5%;
+
+  //
+
+  .articleflex {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3rem;
+  }
+
+  .produtosDis {
+    border: solid #16a34a;
+    width: 16vw;
+    border-radius: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    img {
+      width: 100%;
+    }
+
+    h4 {
+      font-size: 1.5rem;
+      font-weight: 500;
+      font-family: "Inter", sans-serif;
+      color: #4b5563;
+      padding: 1rem;
+    }
+
+    p {
+      color: #4b5563;
+      font-family: "Inter", sans-serif;
+      font-weight: 400;
+      text-align: center;
+      padding: 1rem;
+    }
+
+    button {
+      cursor: pointer;
+      background-color: #16a34a;
+      color: #ffffff;
+      border: none;
+      font-family: "Inter", sans-serif;
+      width: 7vw;
+      padding: 0.8rem;
+      border-radius: 2%;
+      margin: 1rem;
+    }
+  }
 }
-}
+
+/////////////////////////////////////////////////////////////////
+
+.estrelas {
+  h2 {
+    height: 20vh;
+    padding-left: 36%;
+    padding-top: 6%;
+    font-weight: 700;
+    font-size: 2.5rem;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .pEstrelas {
+    font-family: "Poppins", sans-serif;
+    padding-left: 40%;
+    font-weight: 400;
+    font-size: 1.8rem;
+  }
+
+  .star {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3rem;
+
+    /////
+
+    div {
+      border: solid #16a34a 2px;
+      height: 26vh;
+      width: 18%;
+      border-radius: 15px;
+      font-weight: 400;
+
+      img {
+        margin-bottom: 5%;
+        margin-top: 5%;
+        margin-left: 5%;
+      }
+
+      p {
+        margin-bottom: 8%;
+        margin-left: 5%;
+        margin-right: 5%;
+        font-family: "Poppins", sans-serif;
+      }
+      h4 {
+        margin-left: 5%;
+        font-family: "Inter", sans-serif;
+      }
+    }
+  }
 }
 
 ////////////////////////////////////////////////////////////
 
-.fazerAdiferença{
-  border: solid;
-height: 35vh;
-display: flex;
-align-items: center;
-flex-direction: column;
+.fazerAdiferença {
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 
-h2 {
-  margin-top: 4%;
-  font-size: 2rem;
-  font-family: "Poppins", sans-serif;
+  h2 {
+    margin-top: 4%;
+    font-size: 2rem;
+    font-family: "Poppins", sans-serif;
   }
 
-h3 {
-margin-top: 1%;
-margin-bottom: 3%;
-font-weight: 400;
-font-size: 1.3rem;
-font-family: "Inter", sans-serif;
-}
+  h3 {
+    margin-top: 1%;
+    margin-bottom: 3%;
+    font-weight: 400;
+    font-size: 1.3rem;
+    font-family: "Inter", sans-serif;
+  }
 
-button {
-  background-color: #16A34A;
-  color: #ffffff;
-  border: none;
-  width: 15%;
-  height: 5vh;
-  font-family: "Poppins", sans-serif;
-  cursor: pointer;
+  div {
+    padding: 1rem;
+    width: 30vw;
+    display: flex;
+    justify-content: space-evenly;
+
+    .botaoverdeDiferença {
+      background-color: #16a34a;
+      color: #ffffff;
+      border: none;
+      width: 10vw;
+      height: 5vh;
+      border-radius: 6px;
+      font-family: "Poppins", sans-serif;
+      font-size: 1rem;
+    }
+
+    .botaobrancoDiferença {
+      border: solid #16a34a;
+      color: #16a34a;
+      width: 10vw;
+      height: 5vh;
+      border-radius: 6px;
+      font-family: "Poppins", sans-serif;
+      font-size: 1rem;
+    }
   }
 }
-
-
-
 ///////////////////////////////////////////////////////////////////////
 
 .redes {
-background-color: #1F2937;
-color: #ffffff;
-height: 30vh;
-display: flex;
-justify-content: space-evenly;
+  background-color: #1f2937;
+  color: #ffffff;
+  height: 30vh;
+  display: flex;
+  justify-content: space-evenly;
 
-.reciclaConecta {
+  .reciclaConecta {
+    h3 {
+      margin-top: 15%;
 
- h3{
-    margin-top: 15%;
-    
-   font-weight: 700;
-    font-family: "Inter", sans-serif;
-   }
+      font-weight: 700;
+      font-family: "Inter", sans-serif;
+    }
 
-  p{
-  margin-top: 10%;
-   font-weight: 400;
-  font-family: "Poppins", sans-serif;
-  }
-}
-
-
-.reciclaRedes {
-
-h3{
-  font-family: "Inter", sans-serif;
-  margin-top: 15%;
+    p {
+      margin-top: 10%;
+      font-weight: 400;
+      font-family: "Poppins", sans-serif;
+    }
   }
 
-p{
-  margin-top: 10%;
-  font-family: "Poppins", sans-serif;
-}
+  .reciclaRedes {
+    h3 {
+      font-family: "Inter", sans-serif;
+      margin-top: 15%;
+    }
 
-  img{
-    margin-top: 10%;
-    margin-left: 10%;
+    p {
+      margin-top: 10%;
+      font-family: "Poppins", sans-serif;
+    }
+
+    img {
+      margin-top: 10%;
+      margin-left: 10%;
+    }
   }
-}
 }
 
 //////////////////////////////////////////////////////////////////////
 
 footer {
-  background-color: #1F2937;
-    color: #9CA3AF;
+  background-color: #1f2937;
+  color: #9ca3af;
   text-align: center;
   height: 10vh;
   padding-top: 2%;
+  border-top: 1px #4b5563 solid;
 }
-
-
+//////////////////////////////////////////////////////////////////////////////
 /////////////////////////////     RESPONSIVO      ////////////////////////////
 
-//responsivo
-//esturura com limitador, minimo de px e max de px
-//@media (min-width: ;) and (max-width: ;)
-//smartfone max:500px
+@media (max-width: 500px) {
 
-@media(max-width: 500px){
-header {
+  header {
     display: flex;
     flex-direction: column;
-height: 30vh;
-    
-}
+    height: 30vh;
+        }
 
-.caixaLogo {
-    
+  .caixaLogo {
     width: 60%;
-}
+  }
 
-nav {
-   
-    width: 100%;
-}
- 
-a {
+  nav {
+  width: 100%;
+   height: 20vh;
+  }
+
+  a {
     font-size: 0.9rem;
-}
+  }
 
-.BotaoVerdeheader {
+  .BotaoVerdeheader {
     font-size: 0.8rem;
-}
+  }
 
-////////////////////////
+  ////////////////////////////////////////////
 
-
-.primeirasection {
+  .primeirasection {
     background-color: aqua;
+    height: 160vh;
     display: flex;
     flex-direction: column;
     text-align: center;
-    height: 150vh;
+
+h2 {
+  border: solid;
+  width: 100%
+  
+ }
+
 }
 
-section {
-    h2{
-        font-size: 0.1rem;
-        width: 100%;
+
+//////////////////////////////////////
+
+.dadosNumericos {
+  height: 25vh;
+
+  div {
+    width: 30%;
+
+    h2 {
+      font-size: 1.8rem;
     }
 
     p {
-        width: 100%;
-    }
-
-
-}
-
-
-  .boxBtnsPrimeiraSection {
-      width: 100%;
-
-      button {
-        padding: 20px 30px;
-      }
-    }
-
-    img {
-      width: 50%;
+      font-size: 1rem;
     }
   }
-
-
-/////////////////////////////////////////////////////
-
-.dadosNumericos{
-   height: 25vh;
-
-div{
-  width: 30%;
-
-h2{
-  font-size: 1.8rem;
-
 }
-
-p{
-  font-size: 1rem;
+//////////////////////////////////////////////
 }
-
-}
-
-}
-
-
-
-//section produtos disponiveis
-
