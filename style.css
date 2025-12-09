@@ -12,7 +12,7 @@ header {
   justify-content: space-between;
   height: 15vh;
   align-items: center;
-  border-bottom: 1px #B4AEAE solid;
+  border-bottom: 1px #b4aeae solid;
 }
 
 .caixaLogo {
@@ -87,6 +87,7 @@ a {
   width: 15%;
   height: 5vh;
   font-family: "Poppins", sans-serif;
+  margin-left: 1rem;
   cursor: pointer;
 }
 
@@ -168,15 +169,14 @@ a {
 }
 
 .produtosDisponiveis h2 {
+  background-color: #f3f5f8;
   padding-top: 1.5%;
-  padding-left: 3%;
   height: 12vh;
   font-weight: 600;
   font-size: 3rem;
   font-family: "Poppins", sans-serif;
 }
 .produtosDisponiveis h3 {
-  padding-left: 3%;
   height: 5vh;
   font-family: "Inter", sans-serif;
   font-size: 1.6rem;
@@ -267,6 +267,7 @@ a {
 }
 
 .fazerAdiferença {
+  background-color: #f3f5f8;
   height: 40vh;
   display: flex;
   align-items: center;
@@ -353,6 +354,7 @@ footer {
   header {
     display: flex;
     flex-direction: column;
+    align-items: center;
     height: 30vh;
   }
   .caixaLogo {
@@ -369,15 +371,26 @@ footer {
     font-size: 0.8rem;
   }
   .primeirasection {
-    background-color: aqua;
+    border: solid;
     height: 160vh;
     display: flex;
     flex-direction: column;
-    text-align: center;
+    font-size: 1rem;
+    font-weight: 700;
   }
   .primeirasection h2 {
-    border: solid;
     width: 100%;
+  }
+  .primeirasection .divprimeirasection {
+    width: 120%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .primeirasection .divprimeirasection .botaoverde {
+    width: 35%;
+  }
+  .primeirasection .divprimeirasection .botaobranco {
+    width: 35%;
   }
   .dadosNumericos {
     height: 25vh;
@@ -390,5 +403,51 @@ footer {
   }
   .dadosNumericos div p {
     font-size: 1rem;
+  }
+  .doadoresAdquirentes {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .doadoresAdquirentes .Doaverde {
+    width: 80%;
+  }
+  .doadoresAdquirentes .Adazul {
+    width: 80%;
+  }
+  .doadoresAdquirentes p {
+    text-align: center;
+    padding-top: 2rem;
+  }
+  .doadoresAdquirentes ul {
+    margin: 4rem;
+  }
+  .produtosDisponiveis {
+    border: #1f2937 solid;
+  }
+  .produtosDisponiveis h2 {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .produtosDisponiveis h3 {
+    font-size: 1rem;
+    text-align: center;
+  }
+  .estrelas {
+    background-color: #2563eb;
+  }
+  .fazerAdiferença {
+    height: 100vh;
+  }
+  .redes {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 65vh;
+  }
+  .redes p {
+    font-size: 0.8rem;
+    font-weight: 300;
   }
 }/*# sourceMappingURL=style.css.map */
