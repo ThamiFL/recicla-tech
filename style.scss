@@ -39,20 +39,22 @@ a {
 }
 
 .BotaoVerdeheader {
-  background-color: #21c05c;
+  background-color: #16a34a;
   color: #ffffff;
   font-size: 1.3rem;
   cursor: pointer;
   padding: 18px;
   border-radius: 10px;
   font-family: "Poppins", sans-serif;
+  &:hover {
+    background-color: #21c05c;
+  }
 }
 
 /////////////////////////////////////////////////////////////
 
 .primeirasection {
   background-color: #ffffff;
-  height: 40vh;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -62,12 +64,14 @@ a {
     font-weight: 700;
     font-family: "Poppins", sans-serif;
     width: 55%;
+    color: #1f2937;
   }
 
   p {
     font-size: 1.25rem;
     font-weight: 200;
     font-family: "Inter", sans-serif;
+    color: #4b5563;
   }
 
   section {
@@ -86,6 +90,9 @@ a {
     height: 5vh;
     font-family: "Poppins", sans-serif;
     cursor: pointer;
+    &:hover {
+      background-color: #21c05c;
+    }
   }
 
   .botaobranco {
@@ -96,6 +103,10 @@ a {
     font-family: "Poppins", sans-serif;
     margin-left: 1rem;
     cursor: pointer;
+  }
+
+  .imglogo{
+       margin: 1rem;
   }
 }
 
@@ -109,7 +120,7 @@ a {
   align-items: center;
   height: 20vh;
   font-family: "Poppins", sans-serif;
-  font-size: 5rem;
+  font-size: 4.5rem;
   padding-top: 10%;
   margin-bottom: 10%;
 
@@ -195,7 +206,6 @@ a {
 /////////////////////////////////////////////////////////////////
 
 .produtosDisponiveis {
-
   h2 {
     background-color: #f3f5f8;
     padding-top: 1.5%;
@@ -256,8 +266,11 @@ a {
       font-family: "Inter", sans-serif;
       width: 7vw;
       padding: 0.8rem;
-      border-radius: 2%;
+      border-radius: 3%;
       margin: 1rem;
+      &:hover {
+        background-color: #21c05c;
+      }
     }
   }
 }
@@ -267,7 +280,8 @@ a {
 .estrelas {
   h2 {
     height: 20vh;
-    padding-left: 36%;
+    display: flex;
+    justify-content: center;
     padding-top: 6%;
     font-weight: 700;
     font-size: 2.5rem;
@@ -276,7 +290,8 @@ a {
 
   .pEstrelas {
     font-family: "Poppins", sans-serif;
-    padding-left: 40%;
+    display: flex;
+    justify-content: center;
     font-weight: 400;
     font-size: 1.8rem;
   }
@@ -284,13 +299,11 @@ a {
   .star {
     display: flex;
     justify-content: space-evenly;
-    padding: 3rem;
-
-    /////
+    margin: 2rem;
 
     div {
       border: solid #16a34a 2px;
-      height: 26vh;
+      height: 27vh;
       width: 18%;
       border-radius: 15px;
       font-weight: 400;
@@ -302,14 +315,18 @@ a {
       }
 
       p {
-        margin-bottom: 8%;
-        margin-left: 5%;
-        margin-right: 5%;
+        margin: 1rem;
         font-family: "Poppins", sans-serif;
+        color: #6b7280;
       }
+
       h4 {
-        margin-left: 5%;
+        margin: 1rem 1rem 0;
         font-family: "Inter", sans-serif;
+      }
+
+      .cargo {
+        margin: 0 1rem 0;
       }
     }
   }
@@ -339,7 +356,6 @@ a {
   }
 
   div {
-    padding: 1rem;
     width: 30vw;
     display: flex;
     justify-content: space-evenly;
@@ -353,6 +369,10 @@ a {
       border-radius: 6px;
       font-family: "Poppins", sans-serif;
       font-size: 1rem;
+      cursor: pointer;
+      &:hover {
+        background-color: #21c05c;
+      }
     }
 
     .botaobrancoDiferença {
@@ -363,6 +383,7 @@ a {
       border-radius: 6px;
       font-family: "Poppins", sans-serif;
       font-size: 1rem;
+      cursor: pointer;
     }
   }
 }
@@ -420,7 +441,8 @@ footer {
 }
 
 //////////////////////////////////////////////////////////////////////////////
-/////////////////////////////     RESPONSIVO      ////////////////////////////
+
+//---------------------     RESPONSIVO     ---------------------//
 @media (max-width: 500px) {
   header {
     display: flex;
@@ -446,18 +468,26 @@ footer {
     font-size: 0.8rem;
   }
 
-  ////////////////////////////////////////////
+  //---------------------------------------------------//
 
   .primeirasection {
-    border: solid;
-    height: 160vh;
+    height: 120vh;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     font-size: 1rem;
     font-weight: 700;
 
     h2 {
-      width: 100%;
+     font-size: 2.2rem;
+     border: solid;
+     width: 85vw;
+     height: 25vh;
+ 
+    }
+
+    p {
+border: solid;
     }
 
     .divprimeirasection {
@@ -466,16 +496,23 @@ footer {
       justify-content: space-evenly;
 
       .botaoverde {
-        width: 35%;
+        width: 40%;
+        margin: 1rem;
       }
 
       .botaobranco {
-        width: 35%;
+        width: 40%;
+        margin: 1rem;
       }
+.imglogo {
+    margin: 2rem;
+    border: solid;
+}
+
     }
   }
 
-  ///////////////////////////////////////////
+  //----------------------------------------------------//
 
   .dadosNumericos {
     height: 25vh;
@@ -493,11 +530,10 @@ footer {
     }
   }
 
-  /////////////////////////////////////////////
-  /// 
+  //---------------------------------------------------------//
+
   .doadoresAdquirentes {
-   
-    height: 80vh;
+    height: 90vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -512,58 +548,72 @@ footer {
 
     p {
       text-align: center;
-      padding-top: 2rem;
+      padding-top: 1rem;
     }
 
     ul {
-      margin: 4rem;
+      margin: 1rem 4rem 0;
     }
   }
-  ///////////////////////////////////////////////
+
+  //-----------------------------------------------------------//
+
   .produtosDisponiveis {
-   border: #1f2937 solid;
+    h2 {
+      font-size: 2rem;
+      text-align: center;
+    }
 
- 
-h2 {
-font-size: 2rem;
-text-align: center;
-}
+    h3 {
+      font-size: 1rem;
+      text-align: center;
+    }
 
-h3 {
-  font-size: 1rem;
-text-align: center;
-}
+    .articleflex {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
 
-}
+      .produtosDis {
+        margin: 1rem;
+        width: 80%;
 
-////////////////////////////////////////////////////
-
-.estrelas {
-  background-color: #2563eb;
-
-}
-///////////////////////////////////
-.fazerAdiferença {
-  height: 100vh;
-}
-
-
-/////////////////////////////////////
-
-.redes {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  height: 65vh;
- 
-  p{
-    font-size: 0.8rem;
-    font-weight: 300;
+        button {
+          width: 50vw;
+        }
+      }
+    }
   }
-}
 
+  //-----------------------------------------------------------//
 
-/// 
+  .estrelas {
+    background-color: #2563eb;
+    height: 200vh;
 
+    .star {
+     
+      div {
+         background-color: chocolate;
+      }
+    }
+  }
 
+  //---------------------------------------------------//
+
+  //----------------------------------------------------//
+
+  .redes {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 55vh;
+
+    p {
+      font-size: 0.8rem;
+      font-weight: 300;
+    }
+  }
+
+  ///
 }
